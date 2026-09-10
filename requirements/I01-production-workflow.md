@@ -82,8 +82,8 @@ By the end of the guided portion:
 - [x] The local repository is connected to GitHub as `origin`.
 - [x] Local `main` has been pushed to GitHub.
 - [x] A GitHub ruleset protects `main`.
-- [ ] The first project branch has been created.
-- [ ] The initial repository structure has been created.
+- [x] The first project branch has been created.
+- [x] The initial repository structure has been created.
 - [x] This assignment has been copied into `requirements/I01-production-workflow.md`.
 
 You may refer to the course slides and setup notes for exact commands.
