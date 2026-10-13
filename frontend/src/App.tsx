@@ -1,29 +1,25 @@
 import './App.css'
+import profilePhoto from './assets/profile.jpg'
+
+const name = 'Caleb Mayhew'
+const focus = 'Computer Science @ Grove City College'
 
 function App() {
+  return (
+    <main className="intro">
+      <img className="avatar" src={profilePhoto} alt={`Photo of ${name}`} />
 
-return (
+      <h1>{name}</h1>
+      <h2>{focus}</h2>
 
-<main>
-
-  <h1>Your Name</h1>
-
-  <h2>Senior Capstone Production Platform</h2>
-
-  <p>
-
-    This site will present my software projects, engineering decisions,
-
-    and production systems.
-
-  </p>
-
-  <p>Initial frontend setup in progress.</p>
-
-</main>
-
-)
-
+      <p>
+        I'm a computer science student minoring in Data Science, Cyber Security,
+        and Artificial Intelligence, with internship experience building
+        production Ruby on Rails features. Outside of code, I swim distance
+        freestyle for Grove City and coach a summer swim team.
+      </p>
+    </main>
+  )
 }
 
-export default App  
+export default App
